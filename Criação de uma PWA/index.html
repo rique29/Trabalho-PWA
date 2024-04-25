@@ -1,0 +1,58 @@
+<!-- Estrutura da página -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/maria-2" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="manisfeto.json">
+    <title>Construindo uma PWA</title>
+</head>
+<body>
+    <!-- Area referente a Calculadora -->
+    <main>
+        <!-- Placeholder para o efeito de slideshow com gifs de fundo -->
+        <div class="slideshow"></div>
+        <!-- Seção da calculadora e tabuada -->
+        <div>
+            <h1>Calculadora e Tabuada</h1>
+            <!-- Visor da calculadora -->
+            <div class="phn_display">0</div>
+            <!-- Botões refernete aos nuemros -->
+            <div class="numbers">
+                <div id="1">1</div>
+                <div id="2">2</div>
+                <div id="3">3</div>
+                <div id="4">4</div>
+                <div id="5">5</div>
+                <div id="6">6</div>
+                <div id="7">7</div>
+                <div id="8">8</div>
+                <div id="9">9</div>
+                <div id="0">0</div>
+            </div>
+
+            <!-- Botão das operação -->
+            <div class="operations">
+                <div id="add">+</div>
+                <div id="subtract">-</div>
+                <div id="multiply">*</div>
+                <div id="divide">/</div>
+                <div id="equalsBtn">=</div>
+                <div id="clear">LIMPAR</div>
+
+            <!-- Area referente a Tabuada -->
+                <div class="tabuada">
+                  <!-- Botão para gerar a tabuada -->
+                    <button id="tabuadaBtn">Gerar Tabuada</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Script JavaScript -->
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

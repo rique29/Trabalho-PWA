@@ -1,0 +1,32 @@
+{
+    "short_name": "Calculadora-e-Tabuada",
+    "name": "Calculadora e Tabuada",
+    "icons": [
+        {
+            "src": "img/icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#FFFFFF",
+    "display": "fullscreen",
+    "scope": ".",
+    "theme_color": "#410CD9",
+    "screenshots": [
+        {
+            "src": "img/icon-folha.png",
+            "sizes": "320x320",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "Captura de Tela do Desktop"
+        },
+        {
+            "src": "img/phone.webp",
+            "sizes": "320x640",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Captura de Tela do Dispositivo Móvel"
+        }
+    ]
+}
